@@ -38,7 +38,7 @@ li a {
 }
 li a:hover {
   background-color: #e2e1df;
-  color: white;
+  color: black;
 }
 div.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
@@ -104,5 +104,5 @@ div.darkTable {
 }
 .active {
   background-color: #ecd0c7;
-  color: white;
+  color: black;
 }
