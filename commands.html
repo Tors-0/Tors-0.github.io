@@ -16,20 +16,32 @@
   </ul>
   <body>
     <div align="right" width="70%">
-        <table>
-        <caption><h3>Interactive Commands</h3></caption>
-        <tr>
-          <th>Command</th>
-          <th>Description</th>
-        </tr>
-        <tr>
-          <td>vik echo</td>
-          <td>Says hello to you!</td>
-        </tr>
-        <tr>
-          <td>vik says sampleText</td>
-          <td>Sends your message with a cool box and stuff!</td>
-        </tr>
+        <table class="darkTable">
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td colspan="2">Commands copyright © 2020 by Viking Developer</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>vik echo</td>
+              <td>Says hello to you</td>
+            </tr>
+            <tr>
+              <td>vik poll (@role/@user) someText</td>
+              <td>Sends a poll to the mentioned user/group in the current channel</td>
+            </tr>
+            <tr>
+              <td>vik says someText</td>
+              <td>Sends a fancy formatted message with the text after the command (ie. someText)</td>
+            </tr>
+          </tbody>
       </table>
     </div>
   </body>  
