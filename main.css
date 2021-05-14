@@ -40,42 +40,42 @@ li a:hover {
   background-color: #e2e1df;
   color: white;
 }
-table.darkTable {
+div.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #000000;
   background-color: #4A4A4A;
-  width: 80%;
+  width: 100%;
   height: 200px;
   text-align: center;
   border-collapse: collapse;
 }
-table.darkTable td, table.darkTable th {
+.divTable.darkTable .divTableCell, .divTable.darkTable .divTableHead {
   border: 1px solid #4A4A4A;
   padding: 3px 2px;
 }
-table.darkTable tbody td {
+.divTable.darkTable .divTableBody .divTableCell {
   font-size: 13px;
   color: #E6E6E6;
 }
-table.darkTable tr:nth-child(even) {
+.divTable.darkTable .divTableRow:nth-child(even) {
   background: #888888;
 }
-table.darkTable thead {
+.divTable.darkTable .divTableHeading {
   background: #000000;
   border-bottom: 3px solid #000000;
 }
-table.darkTable thead th {
+.divTable.darkTable .divTableHeading .divTableHead {
   font-size: 15px;
   font-weight: bold;
   color: #E6E6E6;
   text-align: center;
   border-left: 2px solid #4A4A4A;
 }
-table.darkTable thead th:first-child {
+.divTable.darkTable .divTableHeading .divTableHead:first-child {
   border-left: none;
 }
 
-table.darkTable tfoot {
+.darkTable .tableFootStyle {
   font-size: 12px;
   font-weight: bold;
   color: #E6E6E6;
@@ -85,9 +85,17 @@ table.darkTable tfoot {
   background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
   border-top: 1px solid #4A4A4A;
 }
-table.darkTable tfoot td {
+.darkTable .tableFootStyle {
   font-size: 12px;
 }
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
 /* End of explicit properties. Start of css class tags. */
 .shadow {
   box-shadow: 3px 3px 6px black;
