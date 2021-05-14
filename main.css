@@ -44,9 +44,9 @@ div.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #000000;
   background-color: #4A4A4A;
-  width: 100%;
+  width: 83%;
   height: 200px;
-  text-align: center;
+  text-align: left;
   border-collapse: collapse;
 }
 .divTable.darkTable .divTableCell, .divTable.darkTable .divTableHead {
