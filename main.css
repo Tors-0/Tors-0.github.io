@@ -36,11 +36,25 @@ li a {
   padding: 8px 16px;
   text-decoration: none;
 }
-  /* Change the link color on hover */
 li a:hover {
   background-color: #e2e1df;
   color: white;
 }
+table {
+  width: 70%;
+  float: right;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* End of explicit properties. Start of css class tags. */
 .shadow {
   box-shadow: 3px 3px 6px black;
 }
