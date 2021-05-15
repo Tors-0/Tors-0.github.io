@@ -39,8 +39,8 @@ li a {
 li a:hover {
   padding: 8px 16px;
   background-color: #596e7f;
-  animation-name: example;
-  animation-duration: 2s;
+  animation-name: example 2s;
+  animation-fill-mode: forwards;
 }
 div.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
