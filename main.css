@@ -37,9 +37,8 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #e2e1df;
-  color: black;
-  padding: 16px 16px;
+  animation-name: example;
+  animation-duration: 2s;
 }
 div.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
@@ -107,4 +106,8 @@ div.darkTable {
   background-color: #ecd0c7;
   color: black;
   padding: 16px 16px;
+}
+@keyframes example {
+  from {padding: 8px 16px; background-color: #596e7f;}
+  to {padding: 16px 16px; background-color: #e2e1df;}
 }
