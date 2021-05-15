@@ -53,7 +53,7 @@ div.darkTable {
 }
 .divTable.darkTable .divTableCell, .divTable.darkTable .divTableHead {
   border: 1px solid #4A4A4A;
-  padding: 3px 2px;
+  padding: 10px;
 }
 .divTable.darkTable .divTableBody .divTableCell {
   font-size: 13px;
