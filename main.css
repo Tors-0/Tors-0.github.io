@@ -45,7 +45,7 @@ div.darkTable {
   border: 2px solid #000000;
   background-color: #4A4A4A;
   width: 83%;
-  height: 200px;
+  padding: 10px;
   text-align: left;
   border-collapse: collapse;
   margin-left: auto;
