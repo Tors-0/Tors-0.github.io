@@ -37,6 +37,8 @@ li a {
   text-decoration: none;
 }
 li a:hover {
+  padding: 8px 16px;
+  background-color: #596e7f;
   animation-name: example;
   animation-duration: 2s;
 }
