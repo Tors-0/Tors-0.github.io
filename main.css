@@ -39,7 +39,6 @@ li a {
 li a:hover {
   background-color: #e2e1df;
   padding: 16px 16px;
-  margin: 16px;
   color: black;
 }
 div.darkTable {
@@ -107,6 +106,5 @@ div.darkTable {
 .active {
   background-color: #ecd0c7;
   padding: 16px 16px;
-  margin: 16px;
   color: black;
 }
