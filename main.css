@@ -109,6 +109,7 @@ div.darkTable {
   background-color: #ecd0c7;
   color: black;
   padding: 16px 16px;
+  animation-name: example;
   animation-play-state: paused;
 }
 @keyframes example {
