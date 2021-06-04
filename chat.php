@@ -40,8 +40,8 @@ function loginForm(){
     <head>
         <meta charset="utf-8" />
  
-        <title>Tuts+ Chat Application</title>
-        <meta name="description" content="Tuts+ Chat Application" />
+        <title>Viking Bot - Chat</title>
+        <meta name="description" content="Viking Bot - Chat" />
         <link rel="stylesheet" href="chat.css" />
     </head>
     <body>
