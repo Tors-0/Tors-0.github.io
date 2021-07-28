@@ -18,8 +18,6 @@
       <h3>Non-Category Commands</h3>
       <h5>vik help</h5> The basic command, shows you a list of command categories and how to see commands in that category.<br>
       <h5>vik premium</h5> A members only server to chat with other premium members, entry cost is 150,000 VikBot Coins.<br>
-      <h5>vik suggest (text here)</h5> Replace (text here) with a suggestion for a feature you want to be added to the bot and it will be sent to the developers and considered.<br>
-      <h5>vik bug report (bug description here)</h5> Replace (bug description here) with a description and possible cause of a bug and it will be reported to the developers and fixed asap.<br>
       <h5>vik greeting disable</h5> Disables the response from the bot when you say 'goodnight'.<br>
       <h5>vik greeting enable</h5> Enables the response from the bot when you say 'goodnight'<br>
       <h3>Category Help Commands</h3>
@@ -31,6 +29,53 @@
       <h5>vik xp commands</h5> Shows the list of xp/leveling related bot commands. Most of these can be used by anyone.<br>
       <h5>vik info</h5> Shows a list of commands that can be used to learn more about the bot or ask questions. These can be used by anyone.<br>
       <h3>Interactive Commands</h3>
+      <h5>vik echo</h5> Says hello to you.<br>
+      <h5>vik color (#123456)</h5> Replace (#123456) with a hex color code and the bot will send a message containing that color. Remove the parenthesis or else it won't work.<br>
+      <h5>vik says (some text)</h5> Replace (some text) with your message and Vik Bot will put it into a fancy embed.<br>
+      <h3>Moderator Commands</h3>
+      <h5>vik ban @user</h5> Summon the mighty hammer of Thor to ban the mentioned user permanently.<br>
+      <h5>vik unban userID</h5> This command unbans a user who has previously been banned. You can find the user ID of a user who is in your server by putting a backslash in front of a mention of that user.<br>
+      <h5>vik kick</h5> Call on the mighty god Vidar to kick the user with his magic shoes. This will remove the user from the server but they can rejoin with an invite.<br>
+      <h5>vik clear #</h5> Replace # with the number of messages you want to delete and they will be deleted. This action is permanent and can't be undone.<br>
+      <h5>vik burn @user</h5> ⚠️This command is meant for satire only!⚠️ This user has died, Vik Bot provides a description of their funeral, held in the traditional Viking style.<br>
+      <h5>vik embed title~message~footer</h5> Replace 'title' 'message' and 'footer' with what you want each part of that message to say. Leaving a section blank will send the embed without that part. (ex. vik embed Announcement!~This is an announcement!~test message)<br>
+      <h5>vik setup</h5> Creates a channel for server members to use the bot in. Anyone can access this channel by default.<br>
+      <h3>Utility Commands</h3>
+      <h5>vik serverinfo</h5> Sends a message containing info about the server, including the number of members and the owner's profile.<br>
+      <h5>vik servers</h5> Displays the total number of servers Vik Bot has access to, the total number of users, and the average users per server.<br>
+      <h5>vik uptime</h5> Displays Vik Bot's current ping and time since last reboot.<br>
+      <h5>vik userinfo @user</h5> Displays detailed info about the user you mentioned.<br>
+      <h5>vik announce (some text)</h5> Replace (some text) with your announcement and Vik Bot will send it as an announcement. Admins only.<br>
+      <h5>vik suggest (text here)</h5> Replace (text here) with a suggestion for a feature you want to be added to the bot and it will be sent to the developers and considered.<br>
+      <h5>vik bug report (bug description here)</h5> Replace (bug description here) with a description and possible cause of a bug and it will be reported to the developers and fixed asap.<br>
+      <h3>Game-Related Commands</h3>
+      <h5>vik slots</h5> Displays a simple 3-slot game, if two or more emojis match then you win!<br>
+      <h5>vik roll #</h5> Replace # with the number of sides the dice should have. Vik Bot then displays the result.<br>
+      <h3>Economy Commands</h3>
+      <h5>vik rich</h5> Displays the leaderboard for who has the most money in the current server.<br>
+      <h5>vik money @user</h5> Displays the money that the mentioned user has in their wallet and bank, you can mention yourself to see your own balance.<br>
+      <h5>vik work</h5> This is the primary way you can earn money. Running this command gives you 100 VikBot Coins and the more you use it, the more you earn. Cooldown of 2 hours.<br>
+      <h5>vik pilfer</h5> This command is the secondary way you can earn money. You need at least 1500 coins to run this command and using it lets you rob England! When you do so you have a random chance to win or lose some money. There is a higher chance of winning and a 30 minute cooldown.<br>
+      <h5>vik rob @user</h5> Both you and the mentioned user need to have at least 5000 coins to do this. You have about a 40% chance of failing and the other person gets the money you lost, but a 60% chance of winning and stealing money from the other user. 5 minute cooldown.<br>
+      <h5>vik give @user #</h5> Replace # with a number that is over 1000 and you will give that amount to the mentioned user. 30 second cooldown.<br>
+      <h5>vik poor</h5> Displays a leaderboard with the poorest users in the server at the top.<br>
+      <h5>vik deposit #</h5> Replace # with a number above 50 to deposit coins from your wallet into your bank. Other users can't steal from your bank.<br> 
+      <h5>vik withdraw #</h5> Replace # with a number above 50 to take coins from your bank into your wallet. Other users can steal from your wallet if you have over 5000 coins in it.<br>
+      <h5>vik thievery-disable</h5> Disable the 'vik rob' command so that users can't steal from each other in your server. Thievery is enabled by default.<br>
+      <h5>vik thievery-enable</h5> Enable the 'vik rob' command so that users can steal from each other in your server.<br>
+      <h3>XP/Leveling Commands</h3>
+      <h5>vik profile @user</h5> Mention a user in the current server to see their net worth and level.<br>
+      <h5>vik xp-disable</h5> Disables level up messages in the current server, admin only. Leveling is enabled by default.<br>
+      <h5>vik xp-enable</h5> Enables level up messages in the current server, admin only.<br>
+      <h5>vik levels</h5> Displays the leaderboard of users who have the highest level in the current server.<br>
+      <h5>vik talkative</h5> Displays the leaderboard of users who talk the most in the current server.<br>
+      <h5>vik ?xp-messages</h5> Sends a message that tells you whether level up messages are enabled or not in the current server.<br>
+      <h3>Information Commands</h3>
+      <h5>vik support</h5> DMs you the link to join the support server, which unlocks special benefits and giveaways. You must have server DMs enabled for this to work.<br>
+      <h5>vik invite</h5> DMs you the link to invite Vik Bot to your own server, you must be an admin in the server you want to invite Vik Bot to for this to work.  You must have server DMs enabled for this to work.<br>
+      <h5>vik vote</h5> Sends a message containing the Top.gg link to vote for Vik Bot and help others find Vik Bot.<br>
+      <h5>vik contact</h5> Displays the developer email for you to contact the developers directly. This email is also on the contact page of the website.<br>
+      <h5>vik website</h5> Sends a message containing the URL link for the official Viking Bot website.
     </div>
   </body>
 </html>
