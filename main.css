@@ -27,7 +27,6 @@ ul {
   width: 15%;
   background-color: #596e7f;
   height: 100%;
-  position: fixed;
   overflow: auto;
 }
 li a {
