@@ -21,6 +21,7 @@ button:hover {
 }
 ul {
   list-style-type: none;
+  float: right;
   margin: 0;
   padding: 0;
   width: 15%;
@@ -28,7 +29,6 @@ ul {
   height: 100%;
   position: fixed;
   overflow: auto;
-  align: right;
 }
 li a {
   display: block;
