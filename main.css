@@ -21,7 +21,8 @@ button:hover {
 }
 ul {
   list-style-type: none;
-  float: right;
+  right: 0;
+  position: fixed;
   margin: 0;
   padding: 0;
   width: 15%;
