@@ -1,9 +1,9 @@
 /* Backgrounds: https://cdn.wallpapersafari.com/84/22/Jz6bAs.gif -- https://cdn.discordapp.com/attachments/656373099503288330/842554447283486740/Screenshot_2021-05-13_5.10.18_PM.png */
 body {
   background-image: url('https://i.pinimg.com/originals/03/48/dd/0348dda14d6994be46f17402359c8f5e.jpg');
-  /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
 }
 button {
   padding: 10px;
